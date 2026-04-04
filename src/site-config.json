@@ -1,0 +1,608 @@
+{
+  "business": {
+    "name": "Summit Plumbing",
+    "phone": "555-plu-r91",
+    "category": "plumbing",
+    "city": "Atlanta",
+    "state": "GA"
+  },
+  "design": {
+    "preset": {
+      "id": "plumbing-mountain-bold",
+      "categoryGroup": "plumbing",
+      "name": "Mountain Bold",
+      "recipeFile": "plumbing/mountain-bold.astro",
+      "colors": {
+        "primary": "#023E8A",
+        "primaryDark": "#012b61",
+        "primaryLight": "#c0cfe2",
+        "secondary": "#0077B6",
+        "accent": "#00B4D8",
+        "background": "#FFFFFF",
+        "backgroundAlt": "#023E8A",
+        "surface": "#F0F4F7",
+        "text": "#0F172A",
+        "textLight": "#64748B",
+        "textOnDark": "#FFFFFF",
+        "border": "#D1D5DB"
+      },
+      "typography": {
+        "headingFont": "Plus Jakarta Sans",
+        "headingWeight": "700",
+        "bodyFont": "Inter",
+        "bodyWeight": "400",
+        "headingStyle": "normal",
+        "scale": "1.2"
+      },
+      "shape": {
+        "borderRadius": "8px",
+        "buttonRadius": "8px",
+        "cardRadius": "12px",
+        "shadowStyle": "medium"
+      },
+      "sections": {
+        "heroStyle": "dark",
+        "sectionAlternation": [
+          "light",
+          "surface",
+          "light",
+          "surface",
+          "light"
+        ],
+        "animationStyle": "fade",
+        "spacingScale": "balanced"
+      }
+    },
+    "recipeId": "plumbing/mountain-bold"
+  },
+  "content": {
+    "homepage": {
+      "heroHeadline": "Atlanta's Trusted Plumbing Experts",
+      "heroSubline": "Summit Plumbing delivers reliable solutions for homes across North Atlanta. Serving Marietta to Johns Creek with same-day emergency service.",
+      "aboutTitle": "Rooted in Atlanta, Built on Trust",
+      "aboutText": [
+        "Founded in 2012, Summit Plumbing grew from a two-person operation to Atlanta's most recommended residential plumbing service. Our team lives and works in the communities we serve.",
+        "We approach every job like it's our own home - with careful diagnostics, transparent pricing, and solutions designed for Georgia's unique climate challenges.",
+        "From sponsoring Little League teams in Roswell to volunteering with Atlanta Habitat for Humanity, we're committed to strengthening our community's foundations."
+      ],
+      "valueProps": [
+        {
+          "title": "24/7 Emergency Service",
+          "description": "When pipes burst during Atlanta's freezing winters, we're there within the hour with heated vans to prevent further damage."
+        },
+        {
+          "title": "Local Climate Specialists",
+          "description": "We understand how Georgia's red clay and humidity affect plumbing systems differently than other regions."
+        },
+        {
+          "title": "Neighborhood Experts",
+          "description": "From Craftsman bungalows in Virginia-Highland to modern builds in Alpharetta, we know Atlanta's housing stock inside out."
+        },
+        {
+          "title": "Upfront Pricing",
+          "description": "No surprise charges - we provide detailed estimates before turning a wrench, with options for every budget."
+        }
+      ],
+      "ctaHeadline": "Need a plumber who knows Atlanta homes?",
+      "ctaSubline": "Call 555-PLU-R91 now for same-day service in Marietta, Roswell, Alpharetta, Johns Creek, and Kennesaw."
+    },
+    "services": [
+      {
+        "slug": "emergency-plumbing",
+        "name": "Emergency Plumbing",
+        "shortDescription": "24/7 rapid response to burst pipes, overflowing toilets, and other urgent plumbing crises.",
+        "description": "When Atlanta's winter ice storms cause pipes to burst or summer storms overwhelm your drainage system, Summit Plumbing provides immediate relief. Our emergency vans are stocked with everything needed to stop water damage in its tracks.\n\nWe prioritize safety first - shutting off water sources, containing leaks, and preventing mold growth in your home's vulnerable areas. For older Atlanta homes with galvanized pipes or historic foundations, we take extra care to preserve original structures while implementing modern solutions.\n\nEvery emergency call includes a full inspection to identify underlying issues, with detailed photos and repair options emailed directly to you. Our technicians carry tablets to process payments onsite so you can focus on getting your home back to normal.",
+        "process": [
+          "Step 1: Immediate phone assessment to understand the emergency",
+          "Step 2: Dispatch technician with appropriate equipment (within 60 minutes)",
+          "Step 3: Onsite water shutoff and damage control",
+          "Step 4: Full diagnostic with repair recommendations"
+        ],
+        "benefits": [
+          "Heated service vans prevent frozen pipes during winter calls",
+          "Local knowledge of Atlanta home layouts speeds resolution",
+          "Direct insurance claim assistance available",
+          "Follow-up inspection included"
+        ],
+        "faq": [
+          {
+            "question": "What counts as a plumbing emergency?",
+            "answer": "Any situation risking water damage or making your home uninhabitable - burst pipes, sewage backups, no hot water in winter, or gas line issues qualify for immediate response."
+          },
+          {
+            "question": "Do you service older Atlanta homes?",
+            "answer": "Absolutely. Our team specializes in working with historic plumbing systems found in Craftsman bungalows and mid-century ranches throughout the metro area."
+          }
+        ]
+      },
+      {
+        "slug": "water-heater-repair",
+        "name": "Water Heater Repair",
+        "shortDescription": "Expert diagnosis and repair for all water heater types found in Atlanta homes.",
+        "description": "Atlanta's hard water and frequent temperature swings put extra strain on water heaters. Summit Plumbing technicians are certified to service every make and model found in local homes - from classic tank heaters in Buckhead bungalows to modern tankless units in Alpharetta's newer developments.\n\nWe start by testing your unit's efficiency and checking for sediment buildup, which is common with Georgia's mineral-rich water. For tankless systems, we perform thorough descaling to maintain warranty requirements. Our repairs always include checking adjacent plumbing for stress points caused by our expanding clay soil.\n\nWhen replacement is needed, we help homeowners choose units sized appropriately for Atlanta's climate - accounting for family size, insulation quality, and local energy costs. All installations include earthquake strapping (required by Georgia code) and pan overflow protection.",
+        "process": [
+          "Step 1: Comprehensive diagnostic of heater and connected plumbing",
+          "Step 2: Efficiency testing and safety inspection",
+          "Step 3: Repair vs. replacement analysis with cost comparison",
+          "Step 4: Installation with code-compliant upgrades"
+        ],
+        "benefits": [
+          "Extended lifespan for your current unit",
+          "Energy efficiency improvements reduce monthly bills",
+          "Code-compliant installations pass city inspections",
+          "5-year labor warranty on all new installations"
+        ],
+        "faq": [
+          {
+            "question": "How often should Atlanta homeowners flush their water heaters?",
+            "answer": "We recommend annual flushing due to Georgia's hard water. Homes in areas with particularly mineral-heavy water (like parts of Roswell) may need semi-annual service."
+          },
+          {
+            "question": "Can you install tankless water heaters in older homes?",
+            "answer": "Yes, but it requires careful evaluation of your electrical/gas service and may need upgrades. We've retrofitted many historic Atlanta homes with compact, efficient tankless systems."
+          }
+        ]
+      },
+      {
+        "slug": "drain-cleaning",
+        "name": "Drain Cleaning",
+        "shortDescription": "Advanced solutions for clogged drains in Atlanta's unique soil conditions.",
+        "description": "Georgia's famous red clay and mature tree roots create distinctive drainage challenges for Atlanta-area homes. Summit Plumbing uses camera inspections to accurately diagnose clogs in your pipes without unnecessary digging.\n\nFor routine maintenance, we offer hydro-jetting services that clear buildup while protecting older pipes - particularly important for historic neighborhoods like Inman Park where original cast iron drains are common. When tree roots invade sewer lines (a frequent issue in Marietta's established subdivisions), we use eco-friendly root inhibitors after clearing the blockage.\n\nOur technicians always check for underlying issues like foundation shifts or improper pipe grading that might be causing recurring problems. For homes with frequent drain issues, we recommend our annual maintenance plan that includes priority scheduling and discounts.",
+        "process": [
+          "Step 1: Camera inspection to locate exact blockage point",
+          "Step 2: Method selection based on pipe material and clog type",
+          "Step 3: Thorough cleaning with follow-up camera verification",
+          "Step 4: Preventative treatment recommendations"
+        ],
+        "benefits": [
+          "No-dig solutions preserve landscaping",
+          "Special care for historic home plumbing",
+          "Root inhibitor treatments protect sewer lines",
+          "Honest recommendations about when replacement is needed"
+        ],
+        "faq": [
+          {
+            "question": "Why do my drains clog more often in summer?",
+            "answer": "Atlanta's summer humidity accelerates grease buildup, while drought conditions cause tree roots to seek water in pipes. Our seasonal maintenance plans address these patterns."
+          },
+          {
+            "question": "Can hydrojetting damage old pipes?",
+            "description": "We adjust pressure based on pipe material and condition. For fragile historic pipes, we use gentler methods that still effectively clear blockages."
+          }
+        ]
+      },
+      {
+        "slug": "pipe-repair",
+        "name": "Pipe Repair",
+        "shortDescription": "Specialized solutions for Atlanta's shifting soil and aging pipe systems.",
+        "description": "Georgia's expansive clay soil and aging infrastructure create unique pipe problems. Summit Plumbing offers trenchless pipe repair methods that minimize disruption to your home and landscape - especially valuable in Atlanta's historic districts with mature trees and delicate hardscaping.\n\nFor homes built between 1960-1990 (common in Marietta and Kennesaw subdivisions), we frequently find deteriorating galvanized pipes that need replacement. Our epoxy pipe lining solution often saves homeowners thousands compared to full repiping while providing decades of additional service life.\n\nWe're particularly experienced with foundation-related pipe issues caused by soil movement. All repairs include seismic-resistant fittings and proper bedding to accommodate future shifts. For new construction or whole-home repiping, we use materials specifically selected for Georgia's water chemistry and temperature extremes.",
+        "process": [
+          "Step 1: Camera inspection and pressure testing",
+          "Step 2: Discussion of repair vs. replacement options",
+          "Step 3: Trenchless solution implementation",
+          "Step 4: Post-repair inspection and flow testing"
+        ],
+        "benefits": [
+          "Minimal landscape disruption",
+          "Materials rated for Georgia conditions",
+          "Foundation-conscious installation",
+          "50-year warranty on epoxy liners"
+        ],
+        "faq": [
+          {
+            "question": "How do I know if my pipes need replacement?",
+            "answer": "Frequent leaks, discolored water, and pressure drops indicate systemic issues. We provide clear photographic evidence from camera inspections to help you make informed decisions."
+          },
+          {
+            "question": "Does homeowners insurance cover pipe repairs?",
+            "answer": "It depends on the cause of damage. We work directly with insurers and provide the documentation they need, including soil analysis when appropriate."
+          }
+        ]
+      },
+      {
+        "slug": "bathroom-remodeling",
+        "name": "Bathroom Remodeling",
+        "shortDescription": "Plumbing expertise for Atlanta bathroom renovations big and small.",
+        "description": "From preserving historic charm in Virginia-Highland bungalows to creating spa-like retreats in Johns Creek's newer homes, Summit Plumbing brings technical expertise to your bathroom remodel. We coordinate closely with contractors to ensure plumbing rough-ins meet current code while accommodating your design vision.\n\nFor older Atlanta homes, we're skilled at working within existing structural limitations - like creatively routing pipes through balloon framing or updating systems without compromising original tile work. In modern homes, we install luxury features like body sprays and smart toilets with proper water pressure considerations.\n\nEvery project begins with a consultation about your household's water usage patterns and maintenance preferences. We'll advise on material choices that stand up to Georgia's humidity and recommend water-saving fixtures that qualify for local rebates. Our permit specialists handle all city paperwork for a stress-free renovation.",
+        "process": [
+          "Step 1: Comprehensive needs assessment and space evaluation",
+          "Step 2: Plumbing system design with 3D modeling",
+          "Step 3: Precise rough-in work meeting Atlanta codes",
+          "Step 4: Fixture installation and system testing"
+        ],
+        "benefits": [
+          "Respect for historic home character",
+          "Water efficiency optimization",
+          "Seamless contractor coordination",
+          "Permit acquisition included"
+        ],
+        "faq": [
+          {
+            "question": "How long does plumbing work take for a bathroom remodel?",
+            "answer": "Most projects require 2-3 days for rough-ins and another day for fixtures. We plan around your schedule and keep the worksite clean each day."
+          },
+          {
+            "question": "Can you help choose water-efficient fixtures?",
+            "answer": "Absolutely. We're familiar with all WaterSense products and Atlanta's rebate programs, helping you select options that save money long-term."
+          }
+        ]
+      },
+      {
+        "slug": "leak-detection",
+        "name": "Leak Detection",
+        "shortDescription": "Advanced technology to find hidden leaks in Atlanta homes.",
+        "description": "Undetected water leaks in Atlanta homes can lead to mold growth, foundation problems, and skyrocketing water bills. Summit Plumbing uses infrared cameras, acoustic sensors, and moisture meters to pinpoint leaks without destructive searching - particularly important for preserving original finishes in historic properties.\n\nWe pay special attention to common Atlanta leak locations: under pier-and-beam foundations, at slab penetration points in ranch homes, and where pipes connect to municipal lines beneath the street. Our reports include thermal images showing exact leak locations and recommended repair options.\n\nFor homeowners concerned about gradual leaks, we offer annual leak detection checkups that monitor trouble spots over time. These preventive visits often catch small issues before they become major repairs, saving thousands in potential water damage. All services include documentation for insurance claims when needed.",
+        "process": [
+          "Step 1: Non-invasive inspection using multiple detection methods",
+          "Step 2: Pressure testing of suspect lines",
+          "Step 3: Detailed report with visual evidence",
+          "Step 4: Repair recommendations prioritized by urgency"
+        ],
+        "benefits": [
+          "No unnecessary wall or floor damage",
+          "Early detection prevents major repairs",
+          "Comprehensive documentation for insurance",
+          "Preventative monitoring programs available"
+        ],
+        "faq": [
+          {
+            "question": "What are signs of a hidden leak?",
+            "answer": "Unexplained water bill increases, moldy smells, warm spots on floors, or the sound of running water when fixtures are off all indicate possible leaks."
+          },
+          {
+            "question": "Can leaks affect my home's foundation?",
+            "answer": "Yes. Georgia's expansive clay soil is particularly sensitive to moisture changes. We check for foundation impact with every leak detection service."
+          }
+        ]
+      },
+      {
+        "slug": "gas-line-services",
+        "name": "Gas Line Services",
+        "shortDescription": "Safe installation and repair for natural gas and propane systems.",
+        "description": "From gas log fireplaces in Buckhead mansions to outdoor kitchens in Alpharetta, Summit Plumbing handles all residential gas line needs with meticulous attention to safety. Our technicians complete annual certification on the latest gas codes and leak detection methods.\n\nWe're experienced working with Atlanta's mix of gas line materials - from older black iron pipes in mid-century homes to modern CSST systems. Every installation or repair includes pressure testing and leak detection with electronic sensors more sensitive than soap bubble tests.\n\nFor outdoor gas appliances, we consider Georgia's freeze-thaw cycles when burying lines and use protective sleeves where pipes cross property lines. Indoor installations receive proper ventilation analysis, especially important in Atlanta's tight historic homes. We handle all city permit requirements and provide documentation for your home's records.",
+        "process": [
+          "Step 1: System evaluation and load calculations",
+          "Step 2: Material selection based on application and location",
+          "Step 3: Precision installation with pressure testing",
+          "Step 4: Final inspection and homeowner education"
+        ],
+        "benefits": [
+          "Certified safe installations",
+          "Code-compliant for insurance purposes",
+          "Corrosion-resistant materials",
+          "Permit acquisition included"
+        ],
+        "faq": [
+          {
+            "question": "How often should gas lines be inspected?",
+            "answer": "We recommend annual checks for older systems and biannual inspections for outdoor lines exposed to Georgia's temperature extremes."
+          },
+          {
+            "question": "Can you convert appliances from propane to natural gas?",
+            "answer": "Yes, with proper regulator adjustments and safety checks. We'll verify your existing gas line can handle the BTU requirements."
+          }
+        ]
+      }
+    ],
+    "reviews": [
+      {
+        "name": "James T.",
+        "rating": 5,
+        "service": "Emergency Plumbing",
+        "text": "When our 1920s bungalow's original pipes froze during last January's ice storm, Summit had a technician out within 45 minutes. He not only fixed the burst pipe but showed me how to better insulate the crawlspace to prevent future issues. Their knowledge of old Atlanta homes is impressive.",
+        "date": "2025-01-15"
+      },
+      {
+        "name": "Lisa M.",
+        "rating": 5,
+        "service": "Water Heater Repair",
+        "text": "Our tankless water heater stopped working right before house guests arrived. The Summit technician diagnosed a sediment buildup from our hard water and had it flushing properly in under an hour. He even left us with a maintenance schedule tailored to Alpharetta's water quality.",
+        "date": "2025-03-22"
+      },
+      {
+        "name": "Robert H.",
+        "rating": 5,
+        "service": "Drain Cleaning",
+        "text": "After three plumbers couldn't fix our chronically clogged kitchen drain, Summit's camera found a collapsed pipe under our driveway. Their trenchless repair saved us thousands in excavation costs and preserved our mature landscaping in Roswell.",
+        "date": "2025-02-10"
+      },
+      {
+        "name": "Sarah K.",
+        "rating": 5,
+        "service": "Bathroom Remodeling",
+        "text": "Summit's team transformed our 1970s ranch home's bathroom into a modern retreat while keeping the plumbing within the original footprint. They coordinated perfectly with our contractor and handled all the Marietta permit paperwork seamlessly.",
+        "date": "2025-04-05"
+      },
+      {
+        "name": "David P.",
+        "rating": 5,
+        "service": "Leak Detection",
+        "text": "A mysterious water bill increase led Summit to discover a leak under our Johns Creek home's foundation. Their infrared camera pinpointed the exact spot, saving us from unnecessary concrete cutting. The repair was completed in one day with minimal disruption.",
+        "date": "2025-01-30"
+      },
+      {
+        "name": "Michelle W.",
+        "rating": 5,
+        "service": "Gas Line Services",
+        "text": "We wanted to add a gas line for our outdoor kitchen but were worried about damaging our Kennesaw home's irrigation system. Summit's careful planning and precision installation resulted in perfect functionality with zero impact to our landscaping.",
+        "date": "2025-03-15"
+      }
+    ],
+    "seo": {
+      "homepage": {
+        "title": "Atlanta Plumbing Services | Summit Plumbing",
+        "description": "Trusted local plumbers serving Atlanta homes since 2012. Emergency repairs, water heater service, and plumbing installations with neighborhood expertise."
+      },
+      "about": {
+        "title": "About Summit Plumbing | Atlanta's Local Experts",
+        "description": "Learn about our Atlanta roots and commitment to quality plumbing service for Marietta, Roswell, Alpharetta, Johns Creek, and Kennesaw homes."
+      },
+      "services": {
+        "title": "Atlanta Plumbing Services | Repair & Installation",
+        "description": "Complete residential plumbing services designed for Georgia homes. Emergency repairs, pipe replacement, water heaters, and drain cleaning."
+      },
+      "contact": {
+        "title": "Contact Atlanta Plumbers | Summit Plumbing",
+        "description": "Schedule plumbing service in North Atlanta. Call our local team for same-day emergency repairs or planned installations."
+      },
+      "reviews": {
+        "title": "Atlanta Plumbing Reviews | Summit Plumbing",
+        "description": "See what Atlanta homeowners say about our plumbing services in Marietta, Roswell, Alpharetta, Johns Creek, and Kennesaw."
+      },
+      "service-areas": {
+        "title": "Atlanta Plumbing Service Areas | Summit Plumbing",
+        "description": "Local plumbers serving Marietta, Roswell, Alpharetta, Johns Creek, and Kennesaw with neighborhood-specific plumbing solutions."
+      }
+    },
+    "companyInfo": {
+      "yearsInBusiness": 12,
+      "projectsCompleted": "800+",
+      "satisfaction": "97%",
+      "teamSize": "20+"
+    },
+    "serviceAreas": [
+      {
+        "city": "Marietta",
+        "slug": "marietta-ga",
+        "state": "GA",
+        "content": "Summit Plumbing proudly serves the historic neighborhoods of Marietta, GA, where many homes were built in the 1960s and 1970s. Our team is experienced in handling the unique plumbing challenges of older homes, from pipe replacements to fixture upgrades. The hot, humid summers in Marietta can put extra strain on plumbing systems, making regular maintenance essential to prevent costly repairs.\n\nWe understand the importance of preserving the charm of Marietta's established subdivisions while ensuring modern plumbing reliability. Whether you're dealing with a leaky faucet or need a complete repiping job, our licensed plumbers provide prompt, professional service tailored to your home's specific needs.",
+        "localContext": "Marietta features well-established subdivisions from the 1960s-70s, with plumbing systems that often require updates or repairs.",
+        "nearbyAreas": [
+          "Smyrna",
+          "Kennesaw",
+          "Woodstock"
+        ]
+      },
+      {
+        "city": "Roswell",
+        "slug": "roswell-ga",
+        "state": "GA",
+        "content": "Summit Plumbing is your trusted partner for plumbing services in Roswell's upscale neighborhoods, many of which were developed in the 1980s and 1990s. We specialize in maintaining and upgrading the plumbing systems in these beautiful homes, offering everything from routine drain cleaning to high-end fixture installations. The humid Georgia climate can accelerate wear on pipes and water heaters, making our preventive maintenance services particularly valuable for Roswell homeowners.\n\nOur team is familiar with the architectural styles and plumbing layouts common in Roswell's subdivisions. We take pride in delivering discreet, respectful service that matches the standards of this sophisticated community, whether we're handling emergency repairs or planned renovations.",
+        "localContext": "Roswell is known for its upscale 1980s-90s subdivisions, where homeowners value quality plumbing services.",
+        "nearbyAreas": [
+          "Alpharetta",
+          "Johns Creek",
+          "Milton"
+        ]
+      },
+      {
+        "city": "Alpharetta",
+        "slug": "alpharetta-ga",
+        "state": "GA",
+        "content": "Summit Plumbing provides comprehensive plumbing solutions for Alpharetta's modern, upscale developments built primarily in the 1990s and 2000s. We're experts in servicing the sophisticated plumbing systems found in these newer homes, including tankless water heaters and smart home water technologies. Alpharetta's hot summers demand reliable plumbing, and we offer seasonal check-ups to keep systems running efficiently year-round.\n\nFrom Avalon to Windward, our local plumbers understand the specific needs of Alpharetta's communities. We combine technical expertise with exceptional customer service, ensuring minimal disruption to your home or business during any plumbing project.",
+        "localContext": "Alpharetta features 1990s-2000s upscale developments with modern plumbing systems that require specialized care.",
+        "nearbyAreas": [
+          "Roswell",
+          "Johns Creek",
+          "Milton"
+        ]
+      },
+      {
+        "city": "Johns Creek",
+        "slug": "johns-creek-ga",
+        "state": "GA",
+        "content": "Summit Plumbing delivers top-tier plumbing services to Johns Creek's prestigious neighborhoods, most developed in the 1990s and 2000s. We're well-versed in the advanced plumbing systems found in these upscale homes, offering services ranging from gourmet kitchen plumbing to whole-house repiping. The humid climate in Johns Creek can challenge plumbing systems, making our leak detection and prevention services particularly valuable.\n\nOur team respects the high standards of Johns Creek homeowners, providing clean, efficient service with attention to detail. Whether you're in a luxury estate or townhome, we have the expertise to handle all your plumbing needs with discretion and professionalism.",
+        "localContext": "Johns Creek is characterized by upscale 1990s-2000s subdivisions with sophisticated plumbing requirements.",
+        "nearbyAreas": [
+          "Alpharetta",
+          "Duluth",
+          "Suwanee"
+        ]
+      },
+      {
+        "city": "Kennesaw",
+        "slug": "kennesaw-ga",
+        "state": "GA",
+        "content": "Summit Plumbing serves Kennesaw's suburban communities, many built during the 1980s and 1990s growth period. We're experienced with the common plumbing issues in these homes, including aging pipe systems and water heater replacements. Kennesaw's hot summers can be tough on plumbing, and we offer specialized services to help homeowners prepare for seasonal demands.\n\nFrom Barrett Parkway to the historic district, our local plumbers understand Kennesaw's diverse housing stock. We provide reliable, affordable plumbing solutions tailored to each home's needs, backed by our commitment to customer satisfaction.",
+        "localContext": "Kennesaw features 1980s-90s suburban developments with plumbing systems that often need maintenance or upgrades.",
+        "nearbyAreas": [
+          "Marietta",
+          "Acworth",
+          "Woodstock"
+        ]
+      },
+      {
+        "city": "Sandy Springs",
+        "slug": "sandy-springs-ga",
+        "state": "GA",
+        "content": "Summit Plumbing offers expert plumbing services for Sandy Springs' mix of established neighborhoods and modern developments. We're familiar with the range of plumbing systems found in this diverse community, from mid-century ranches to contemporary high-rises. The humid Atlanta climate makes regular plumbing maintenance especially important in Sandy Springs to prevent moisture-related issues.\n\nOur team provides responsive service throughout Sandy Springs, whether you're in Riverside or the Perimeter area. We combine technical expertise with local knowledge to deliver plumbing solutions that stand up to the area's specific demands.",
+        "localContext": "Sandy Springs features a mix of older and newer properties, each with unique plumbing requirements.",
+        "nearbyAreas": [
+          "Dunwoody",
+          "Roswell",
+          "Brookhaven"
+        ]
+      },
+      {
+        "city": "Dunwoody",
+        "slug": "dunwoody-ga",
+        "state": "GA",
+        "content": "Summit Plumbing serves Dunwoody's established neighborhoods and growing commercial sector with comprehensive plumbing solutions. We're experts in both residential and commercial plumbing systems, understanding the specific needs of Dunwoody's tree-lined communities and Perimeter business district. The area's humid climate requires special attention to plumbing ventilation and moisture control.\n\nFrom historic homes to modern office buildings, our licensed plumbers deliver quality service throughout Dunwoody. We prioritize preventive maintenance to help avoid the costly repairs that can result from Georgia's hot, wet summers.",
+        "localContext": "Dunwoody combines established residential areas with a thriving commercial sector, both requiring reliable plumbing services.",
+        "nearbyAreas": [
+          "Sandy Springs",
+          "Brookhaven",
+          "Chamblee"
+        ]
+      },
+      {
+        "city": "Woodstock",
+        "slug": "woodstock-ga",
+        "state": "GA",
+        "content": "Summit Plumbing provides dependable plumbing services for Woodstock's growing community, serving both historic downtown properties and newer subdivisions. We're experienced with the range of plumbing systems in this area, from century-old homes to modern developments. Woodstock's climate demands durable plumbing solutions, and we offer weather-resistant options for outdoor fixtures and irrigation systems.\n\nOur local plumbers understand Woodstock's unique character and plumbing needs. Whether you're in Downtown Woodstock or one of the newer neighborhoods, we provide personalized service that respects your home and schedule.",
+        "localContext": "Woodstock features a mix of historic properties and new construction, each with distinct plumbing considerations.",
+        "nearbyAreas": [
+          "Kennesaw",
+          "Canton",
+          "Roswell"
+        ]
+      },
+      {
+        "city": "Acworth",
+        "slug": "acworth-ga",
+        "state": "GA",
+        "content": "Summit Plumbing serves Acworth's lakeside communities and growing suburban neighborhoods with reliable plumbing solutions. We're familiar with the plumbing challenges of waterfront properties, including corrosion prevention and dock plumbing. Acworth's hot summers can stress plumbing systems, making our maintenance programs particularly valuable for local homeowners.\n\nFrom historic districts to new construction, our team provides quality plumbing services throughout Acworth. We understand the importance of both functionality and aesthetics in this beautiful lakeside community.",
+        "localContext": "Acworth's lakeside location and growing suburbs create unique plumbing needs for residential and commercial properties.",
+        "nearbyAreas": [
+          "Kennesaw",
+          "Woodstock",
+          "Cartersville"
+        ]
+      },
+      {
+        "city": "Suwanee",
+        "slug": "suwanee-ga",
+        "state": "GA",
+        "content": "Summit Plumbing delivers expert plumbing services to Suwanee's family-friendly communities, many developed during the area's rapid growth in the 1990s and 2000s. We specialize in the plumbing systems common to these homes, including solutions for large families and entertainment spaces. Suwanee's climate requires special attention to outdoor plumbing and irrigation systems during the hot summer months.\n\nOur local plumbers understand the needs of Suwanee homeowners, providing efficient, courteous service for everything from minor repairs to major installations. We're committed to keeping Suwanee's plumbing systems running smoothly year-round.",
+        "localContext": "Suwanee features 1990s-2000s family-oriented developments with plumbing systems designed for active households.",
+        "nearbyAreas": [
+          "Johns Creek",
+          "Buford",
+          "Duluth"
+        ]
+      },
+      {
+        "city": "Buford",
+        "slug": "buford-ga",
+        "state": "GA",
+        "content": "Summit Plumbing provides comprehensive plumbing services for Buford's diverse residential and commercial properties. We're experienced with the plumbing needs of both historic downtown buildings and newer developments around Lake Lanier. Buford's climate demands durable plumbing solutions, especially for properties near the water.\n\nFrom Mall of Georgia area to the historic district, our team offers reliable plumbing services tailored to Buford's unique characteristics. We understand the importance of both function and efficiency in this growing community.",
+        "localContext": "Buford combines historic properties with new developments, all requiring reliable plumbing services in a lakeside climate.",
+        "nearbyAreas": [
+          "Suwanee",
+          "Flowery Branch",
+          "Sugar Hill"
+        ]
+      },
+      {
+        "city": "Cumming",
+        "slug": "cumming-ga",
+        "state": "GA",
+        "content": "Summit Plumbing serves Cumming's mix of established neighborhoods and new construction around Lake Lanier. We're experts in both traditional and modern plumbing systems, offering services ranging from well pump repairs to smart home plumbing installations. Cumming's climate requires special attention to plumbing systems, particularly for lakeside properties.\n\nOur local plumbers understand the specific needs of Cumming homeowners and businesses. We provide dependable service throughout the area, from downtown to the growing subdivisions, always with an eye toward long-term plumbing solutions.",
+        "localContext": "Cumming features a mix of older properties and new construction, many with lakefront plumbing considerations.",
+        "nearbyAreas": [
+          "Alpharetta",
+          "Johns Creek",
+          "Dawsonville"
+        ]
+      }
+    ]
+  },
+  "images": {
+    "hero": "/images/hero.webp",
+    "heroResponsive": {
+      "src": "/images/hero.webp",
+      "srcset": "/images/hero-400w.webp 400w, /images/hero-800w.webp 800w, /images/hero-1200w.webp 1200w, /images/hero.webp 1376w",
+      "sizes": "100vw",
+      "width": 1376,
+      "height": 768
+    },
+    "about": "/images/about.webp",
+    "aboutResponsive": {
+      "src": "/images/about.webp",
+      "srcset": "/images/about-400w.webp 400w, /images/about-800w.webp 800w, /images/about-1200w.webp 1200w, /images/about.webp 1200w",
+      "sizes": "(max-width: 768px) 100vw, (max-width: 1024px) 50vw, 33vw",
+      "width": 1200,
+      "height": 896
+    },
+    "services": {
+      "emergency-plumbing": "/images/service-emergency-plumbing.webp",
+      "water-heater-repair": "/images/service-water-heater-repair.webp",
+      "drain-cleaning": "/images/service-drain-cleaning.webp",
+      "pipe-repair": "/images/service-pipe-repair.webp",
+      "bathroom-remodeling": "/images/service-bathroom-remodeling.webp",
+      "leak-detection": "/images/service-leak-detection.webp",
+      "gas-line-services": "/images/service-gas-line-services.webp"
+    },
+    "servicesResponsive": {
+      "emergency-plumbing": {
+        "src": "/images/service-emergency-plumbing.webp",
+        "srcset": "/images/service-emergency-plumbing-400w.webp 400w, /images/service-emergency-plumbing-800w.webp 800w, /images/service-emergency-plumbing-1200w.webp 1200w, /images/service-emergency-plumbing.webp 1264w",
+        "sizes": "(max-width: 768px) 100vw, (max-width: 1024px) 50vw, 33vw",
+        "width": 1264,
+        "height": 848
+      },
+      "water-heater-repair": {
+        "src": "/images/service-water-heater-repair.webp",
+        "srcset": "/images/service-water-heater-repair-400w.webp 400w, /images/service-water-heater-repair-800w.webp 800w, /images/service-water-heater-repair-1200w.webp 1200w, /images/service-water-heater-repair.webp 1264w",
+        "sizes": "(max-width: 768px) 100vw, (max-width: 1024px) 50vw, 33vw",
+        "width": 1264,
+        "height": 848
+      },
+      "drain-cleaning": {
+        "src": "/images/service-drain-cleaning.webp",
+        "srcset": "/images/service-drain-cleaning-400w.webp 400w, /images/service-drain-cleaning-800w.webp 800w, /images/service-drain-cleaning-1200w.webp 1200w, /images/service-drain-cleaning.webp 1264w",
+        "sizes": "(max-width: 768px) 100vw, (max-width: 1024px) 50vw, 33vw",
+        "width": 1264,
+        "height": 848
+      },
+      "pipe-repair": {
+        "src": "/images/service-pipe-repair.webp",
+        "srcset": "/images/service-pipe-repair-400w.webp 400w, /images/service-pipe-repair-800w.webp 800w, /images/service-pipe-repair-1200w.webp 1200w, /images/service-pipe-repair.webp 1264w",
+        "sizes": "(max-width: 768px) 100vw, (max-width: 1024px) 50vw, 33vw",
+        "width": 1264,
+        "height": 848
+      },
+      "bathroom-remodeling": {
+        "src": "/images/service-bathroom-remodeling.webp",
+        "srcset": "/images/service-bathroom-remodeling-400w.webp 400w, /images/service-bathroom-remodeling-800w.webp 800w, /images/service-bathroom-remodeling-1200w.webp 1200w, /images/service-bathroom-remodeling.webp 1264w",
+        "sizes": "(max-width: 768px) 100vw, (max-width: 1024px) 50vw, 33vw",
+        "width": 1264,
+        "height": 848
+      },
+      "leak-detection": {
+        "src": "/images/service-leak-detection.webp",
+        "srcset": "/images/service-leak-detection-400w.webp 400w, /images/service-leak-detection-800w.webp 800w, /images/service-leak-detection-1200w.webp 1200w, /images/service-leak-detection.webp 1264w",
+        "sizes": "(max-width: 768px) 100vw, (max-width: 1024px) 50vw, 33vw",
+        "width": 1264,
+        "height": 848
+      },
+      "gas-line-services": {
+        "src": "/images/service-gas-line-services.webp",
+        "srcset": "/images/service-gas-line-services-400w.webp 400w, /images/service-gas-line-services-800w.webp 800w, /images/service-gas-line-services-1200w.webp 1200w, /images/service-gas-line-services.webp 1264w",
+        "sizes": "(max-width: 768px) 100vw, (max-width: 1024px) 50vw, 33vw",
+        "width": 1264,
+        "height": 848
+      }
+    },
+    "gallery": [
+      "/images/gallery-0.webp",
+      "/images/gallery-1.webp"
+    ],
+    "galleryResponsive": [
+      {
+        "src": "/images/gallery-0.webp",
+        "srcset": "/images/gallery-0-400w.webp 400w, /images/gallery-0-800w.webp 800w, /images/gallery-0-1200w.webp 1200w, /images/gallery-0.webp 1200w",
+        "sizes": "(max-width: 768px) 100vw, (max-width: 1024px) 50vw, 33vw",
+        "width": 1200,
+        "height": 896
+      },
+      {
+        "src": "/images/gallery-1.webp",
+        "srcset": "/images/gallery-1-400w.webp 400w, /images/gallery-1-800w.webp 800w, /images/gallery-1-1200w.webp 1200w, /images/gallery-1.webp 1264w",
+        "sizes": "(max-width: 768px) 100vw, (max-width: 1024px) 50vw, 33vw",
+        "width": 1264,
+        "height": 848
+      }
+    ]
+  }
+}
